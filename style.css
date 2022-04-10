@@ -2,11 +2,14 @@
 * {
     margin: 0;
   }
+  body {
+    background-color: rgb(163, 155, 155);
+  }
   
   #main-header {
     width: 100%;
     height: 200px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(49, 40, 40);
   }
   
   #header-title {
@@ -17,14 +20,14 @@
   
   #title {
     font-size: 42px;
-    color: white;
+    color: rgb(255, 255, 255);
     padding-top: 50px;
     text-align: left;
   }
   
   #funcionamento {
-    font-size: 15px;
-    color: white;
+    font-size: 20px;
+    color: rgb(189, 181, 181);
     padding-top: 30px;
   }
   
@@ -41,12 +44,12 @@
   #criar-tarefa {
     font-size: 12px;
     color: white;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(240, 6, 6);
     text-align: left;
   }
   
   #criar-tarefa:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(20, 19, 20);
   }
   
   .completed {
@@ -54,7 +57,7 @@
   }
   
   button {
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px 25px;
     border-radius: 10px;
     border: none;
@@ -73,7 +76,7 @@
   }
   
   #title-list {
-    padding-top: 15px;
+    padding-top: 15px
   }
   
   #lista-tarefas {
@@ -92,37 +95,37 @@
   }
   
   #apaga-tudo {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(201, 87, 22);
   }
   
   #apaga-tudo:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(102, 185, 46);
   }
   
   #remover-finalizados {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(24, 158, 125);
   }
   
   #remover-finalizados:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(42, 86, 153);
   }
   
   #salvar-tarefas {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(60, 32, 163);
   }
   
   #salvar-tarefas:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(70, 30, 136);
   }
   
   #remover-selecionado {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(150, 42, 135);
   }
   
   #mover-cima , #mover-baixo {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(6, 77, 124);
   }
   
   #mover-cima:hover , #mover-baixo:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(146, 43, 94);
   }
